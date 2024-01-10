@@ -66,8 +66,8 @@ p {
 }
 /* Remove hyperlink color (underline and color) */
 a {
-    text-decoration: underline; /* Remove underline */
-    color: inherit; /* Use the parent element's color */
+    text-decoration: underline !important; /* Remove underline */
+    color: inherit !important; /* Use the parent element's color */
 }
 
 /* Specify a specific color for hyperlinks if needed */
