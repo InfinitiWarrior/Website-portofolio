@@ -64,3 +64,13 @@ p {
         padding: 15px;
     }
 }
+/* Remove hyperlink color (underline and color) */
+a {
+    text-decoration: underline; /* Remove underline */
+    color: inherit; /* Use the parent element's color */
+}
+
+/* Specify a specific color for hyperlinks if needed */
+a:hover {
+    color: darkorange; /* Change 'YourColor' to the desired color */
+}
